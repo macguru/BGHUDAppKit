@@ -40,7 +40,7 @@
 	NSString *themeKey;
 }
 
-@property (retain) NSString *themeKey;
+@property  NSString *themeKey;
 
 - (void)drawArrowsInRect:(NSRect) frame;
 

@@ -42,7 +42,7 @@
 	NSButtonType buttonType;
 }
 
-@property (retain) NSString *themeKey;
+@property  NSString *themeKey;
 
 -(void)drawCheckInFrame:(NSRect)frame isRadio:(BOOL)radio;
 -(void)drawTexturedRoundedButtonInFrame:(NSRect)frame;

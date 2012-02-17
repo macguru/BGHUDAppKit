@@ -14,7 +14,7 @@
 	NSString *themeKey;
 }
 
-@property (retain) NSString *themeKey;
+@property  NSString *themeKey;
 
 - (id)initWithThemeKey:(NSString *)key;
 
