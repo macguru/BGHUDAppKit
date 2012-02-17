@@ -50,7 +50,7 @@
 
 @synthesize themeKey;
 
-/*-(id)initWithCoder:(NSCoder *)aDecoder {
+-(id)initWithCoder:(NSCoder *)aDecoder {
 	
 	self = [super initWithCoder: aDecoder];
 	
@@ -66,8 +66,9 @@
 	}
 	
 	return self;
-}*/
+}
 
+/*
 -(id)initWithCoder:(NSCoder *) aDecoder {
 	
 	BOOL isSubclass = YES;
@@ -112,7 +113,7 @@
     [self _setTabsCell: myCell];
 	return self;
 }
-
+*/
 
 /*-(id)initWithCoder:(NSCoder *) aDecoder {
 	
