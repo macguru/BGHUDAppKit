@@ -47,6 +47,6 @@
 	BOOL isBottomDown;
 }
 
-@property  NSString *themeKey;
+@property(strong) NSString *themeKey;
 
 @end

@@ -151,7 +151,6 @@
 										xRadius: 5.0f yRadius: 5.0f];
 	[[[[BGThemeManager keyedManager] themeForKey: self.themeKey] strokeColor] set];
 	[shadowPath fill];
-	[shadowPath release];
 	
 	//Draw Segments
 	[NSGraphicsContext saveGraphicsState];

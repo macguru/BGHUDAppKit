@@ -60,17 +60,17 @@
 @property BOOL drawBottomBorder;
 @property BOOL drawLeftBorder;
 @property BOOL drawRightBorder;
-@property  NSColor *borderColor;
+@property(nonatomic, strong) NSColor *borderColor;
 @property BOOL drawTopShadow;
 @property BOOL drawBottomShadow;
 @property BOOL drawLeftShadow;
 @property BOOL drawRightShadow;
-@property  NSColor *shadowColor;
-@property  NSGradient *customGradient;
-@property  NSColor *color1;
-@property  NSColor *color2;
+@property(nonatomic, strong) NSColor *shadowColor;
+@property(nonatomic, strong) NSGradient *customGradient;
+@property(nonatomic, strong) NSColor *color1;
+@property(nonatomic, strong) NSColor *color2;
 
-@property  NSString *themeKey;
+@property(strong) NSString *themeKey;
 @property BOOL useTheme;
 
 @end

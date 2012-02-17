@@ -40,6 +40,6 @@
 	NSString *themeKey;
 }
 
-@property  NSString *themeKey;
+@property(strong) NSString *themeKey;
 
 @end

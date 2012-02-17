@@ -38,10 +38,10 @@
 
 @interface BGHUDSegmentedCell : NSSegmentedCell {
 
-	NSString *themeKey;
+	NSString *__unsafe_unretained themeKey;
 }
 
-@property  NSString *themeKey;
+@property  (unsafe_unretained) NSString *themeKey;
 
 -(void)drawInteriorForSegment:(NSInteger)segment withFrame:(NSRect)rect;
 -(BOOL)hasText;
