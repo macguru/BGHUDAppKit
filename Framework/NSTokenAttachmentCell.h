@@ -32,8 +32,8 @@
 - (void)setTextColor:(id)fp8;
 - (id)pullDownImage;
 - (id)menu;
-- (struct _NSSize)cellSizeForBounds:(NSRect)fp8;
-- (struct _NSSize)cellSize;
+- (NSSize)cellSizeForBounds:(NSRect)fp8;
+- (NSSize)cellSize;
 - (NSRect)drawingRectForBounds:(NSRect)fp8;
 - (NSRect)titleRectForBounds:(NSRect)fp8;
 - (NSRect)cellFrameForTextContainer:(id)fp8 proposedLineFragment:(NSRect)fp12 glyphPosition:(NSPoint)fp28 characterIndex:(unsigned int)fp36;
